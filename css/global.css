@@ -109,6 +109,10 @@ a:focus {
   color: var(--blue_light) !important;
 }
 
+.col_grey {
+  color: var(--bs-gray-700) !important;
+}
+
 .bg_black {
   background: var(--bg_black) !important;
 }
@@ -663,7 +667,33 @@ p {
 
 /*********************feature_end****************/
 
+/*********************contact****************/
+.icon-circle {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: var(--blue);
+  border-radius: 50%;
+}
 
+.icon-circle i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.hug-content {
+  width: max-content;
+}
+
+/*********************contact_end****************/
 
 /*********************footer****************/
 #footer .border-top {
