@@ -715,6 +715,10 @@ p {
     padding-top: 0;
   }
 
+  #header .logo_2 {
+    display: none !important;
+  }
+
   .dropdown-fullwidth .d-none {
     display: block !important;
   }
