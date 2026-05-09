@@ -67,7 +67,8 @@ a:focus {
 
 
 
-.button {
+.button, 
+.button_2 {
   transition: 0.3s;
   padding: 16px 35px 16px 35px;
   display: inline-block;
@@ -99,7 +100,14 @@ a:focus {
   background: var(--blue) !important;
 }
 
+.button_2 {
+  border: none;
+  background-color: rgba(119, 119, 119, 1);
+}
 
+.button_2:hover {
+  background-color: rgba(119, 119, 119, 0.8);
+}
 
 .col_blue {
   color: var(--blue) !important;
@@ -233,6 +241,15 @@ p {
 
 .border_left {
   border-left: 5px solid var(--blue);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.logo-img {
+  width: 250px;
+  object-fit: contain;
 }
 
 /*****************header*****************/
@@ -702,7 +719,15 @@ p {
 
 /*********************footer_end****************/
 
+@media screen and (max-width: 992px) {
+  .logo-img {
+    width: 200px !important;
+  }
 
+  .logo_2 {
+    display: none !important;
+  }
+}
 
 @media screen and (max-width : 767px) {
 
@@ -713,10 +738,6 @@ p {
   #header .logo {
     display: block !important;
     padding-top: 0;
-  }
-
-  #header .logo_2 {
-    display: none !important;
   }
 
   .dropdown-fullwidth .d-none {
