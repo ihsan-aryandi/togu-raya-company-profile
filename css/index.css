@@ -151,7 +151,7 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 
 @media screen and (max-width : 767px) {
   #homeCarousel .carousel-item .carousel-img {
-    max-height: 250px;
+    max-height: 500px;
   }
 
   #homeCarousel .carousel-item .caption {
@@ -243,6 +243,12 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 
   #productModal .modal-footer [data-bs-dismiss] {
     order: 2;
+  }
+}
+
+@media screen and (max-width : 500px) {
+  #homeCarousel .carousel-item .carousel-img {
+    max-height: 250px;
   }
 }
 
